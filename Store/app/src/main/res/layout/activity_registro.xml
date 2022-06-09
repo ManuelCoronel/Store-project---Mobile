@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vista.RegistroActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_user">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="password_toggle">
+        android:hint="@string/text_clave">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_registro"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        />
+</LinearLayout>

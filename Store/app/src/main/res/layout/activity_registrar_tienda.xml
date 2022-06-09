@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".vista.RegistrarTiendaActivity">
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nombre_tienda_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Ingrese el nombre de la tienda"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/descripcion_tienda_registro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Ingrese la descripcion de la tienda"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Ingrese el telefono de la tienda"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+
+
+</LinearLayout>

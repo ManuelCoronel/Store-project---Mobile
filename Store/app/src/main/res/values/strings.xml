@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Store</string>
+    <string name="text_user">Digite usuario</string>
+    <string name="text_clave">Ingrese clave</string>
+    <string name="text_usuario_olvido_clave">Olvidaste tu clave,</string>
+    <string name="text_recuperar">haga clic aqui</string>
+    <string name="text_no_tiene_usuario">No tiene usuario ,</string>
+    <string name="text_registrarse">registrese aqui</string>
+    <string name="msg_registro">Registrar</string>
+    <string name="msg_sesion">Inicie sesion</string>
+    <string name="txt_tiendas">Tiendas</string>
+    <string name="txt_favoritos">Favoritas</string>
+    <string name="txt_perfil">Mi Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_nombre_tienda">Restaurante la esquina</string>
+    <string name="txt_descripcion">Hoy no fio, mañana si</string>
+    <string name="action_1">texto</string>
+</resources>
